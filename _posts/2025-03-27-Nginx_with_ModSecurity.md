@@ -6,5 +6,5 @@ categories: [docs]
 tag: [documentation, services, WAF , ModSecurity , WebSecurity , NginxSecurity , CyberSecurity , ApplicationSecurity , OWASP , DDoSProtection , SecureWeb , Firewall , CyberSecurity , DevOps]
 ---
 
-# Welcome to secdojo lab
+# Securing Nginx with WAF/ModSecurity
 

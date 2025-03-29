@@ -41,7 +41,7 @@ I generate an SSL certificate for Nginx using OpenSSL and copies various configu
 - Clones the [ModSecurity connector](https://github.com/SpiderLabs/ModSecurity-nginx.git) for Nginx. 
 - the main [ModSecurity repository](https://github.com/owasp-modsecurity/ModSecurity.git) from OWASP, which contains the core engine for ModSecurity. 
 - the OWASP Core Rule Set (CRS) into a directory named modsecurity-crs. CRS provides a set of generic attack detection rules for ModSecurity. 
-- Cloning the Nginx source allows you to recompile it with custom modules.  (replace [1.22.1 with your version of Nginx](http://nginx.org/download/nginx-1.22.1.tar.gz))
+- Cloning the Nginx source allows you to recompile it with custom modules.  (replace [1.22.1 with your version of Nginx](https://nginx.org/download/nginx-1.22.1.tar.gz))
 
 ### Compiling and Installing ModSecurity
 -  Run the following git commands to initialize and update the submodule:

@@ -148,7 +148,7 @@ Below are three examples you can use to test ModSecurity's protection against co
 11. Local File Inclusion (LFI):
 This test attempts to include a sensitive file from the server:
 ```bash
-curl -k"https://localhost/index.html?file=../../../../etc/passwd"
+curl -k "https://localhost/index.html?file=../../../../etc/passwd"
 ```
 22. Cross-Site Scripting (XSS):
 This test injects a simple JavaScript snippet into a query parameter:

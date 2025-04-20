@@ -80,12 +80,12 @@ vault.kdbx
 ```
 We transferred these two files—`logo.jpg` and `vault.kdbx`—to my machine : `base64 copy-paste transfer`
 
-i try to get hash of kdbx but its version 4 
+i try to get hash of kdbx but its version 4  :
 ```bash
 ➜  shares keepass2john vault.kdbx 
 ! vault.kdbx : File version '40000' is currently not supported!
 ```
-After a long time cracking and searching for any possible key or backup, I tested `logo.jpg as the encryption key for the KDBX database—and it worked!` (LOL)
+After a long time cracking and searching for any possible key or backup, I tested `logo.jpg as the encryption key for the KDBX database—and it worked!` (LOL) 
 
 ![kdbx](/assets/kdbx.png "kdbx")
 

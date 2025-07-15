@@ -16,7 +16,7 @@ timezone:
 
 title: lazaruX # the main title
 
-tagline: Cybersecurity | DevOps | CTF Write-ups - Learn, Hack, Automate. # it will display as the subtitle
+tagline: Cybersecurity . # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Dive into cybersecurity and DevOps with in-depth technical insights, security research, and hands-on problem-solving.

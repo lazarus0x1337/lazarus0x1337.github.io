@@ -12,7 +12,7 @@ While learning about business logic vulnerabilities in PortSwigger’s labs, I c
 In this post, I’ll break down how this vulnerability works, demonstrate it with a simple PortSwigger lab example, and explain its real-world impact. By the end, you’ll understand why email parsing discrepancies matter and how attackers can exploit them to gain unauthorized access.
 
 ## 2. Parser discrepancies
-### Unicode overflows
+### 2.1 Unicode overflows
 Many security systems block special characters (like @, ', ", or ;) in email fields to prevent injection attacks. 
 attackers can bypass these filters by using Unicode characters that overflow into blocked ASCII characters when parsed.
 #### example :
@@ -33,3 +33,4 @@ examples :
 #### Conclusion
 Unicode overflows expose a critical flaw: security filters often check for literal characters but miss their Unicode-encoded equivalents. Attackers exploit this by submitting high-code-point characters that normalize into blocked symbols (@, ', etc.), bypassing access controls.
 
+### 2.1 Encoded-word

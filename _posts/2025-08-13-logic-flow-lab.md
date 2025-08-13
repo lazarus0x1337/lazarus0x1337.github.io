@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'business logic vulnerabilities: Email address parser discrepancies'
-date: 2025-08-14
+date: 2025-08-13
 categories: [PortSwigger_Labs]
 tag: [logic bugs,logic,vulnerabilities,business logic vulnerabilities]
 ---

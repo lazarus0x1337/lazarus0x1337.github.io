@@ -94,7 +94,7 @@ I test charset "x" (unknown charsets) , charset "iso-8859-1" and also utf-8 :
 I Notice that the registration is blocked with the error: "Registration blocked for security reasons."
 ![test1](/assets/test1.png "test1")
 ```bash
-=?iso-8859-1?q?=61=62=63?=test@ginandjuice.shop
+=?x?q?=61=62=63?=test@ginandjuice.shop
 =?iso-8859-1?q?=61=62=63?=test@ginandjuice.shop.
 =?utf-8?q?=61=62=63?=test@ginandjuice.shop
 ```
@@ -133,13 +133,13 @@ To use it you just need to change the validServer variable to your target domain
 and we can easily customise the script to perform other attacks. 
 ![turbo-intruder](/assets/turbo-intruder.png "turbo-intruder")
 
-If the attack works you should receive a collaborator ingithub-verified-emailsteraction within Turbo Intruder. This means the email domain is spoofable. 
-i sort by words and i get valid responde :
+If the attack works you should receive a collaborator interaction within Turbo Intruder. This means the email domain is spoofable. 
+
+I sort by words and i get valid responde :
 ![automation-trubo-email](/assets/automation-trubo-email.png "automation-trubo-email")
 
 ## 4. References & Resources
-for more methods about email address parsing discrepancies 
- -  whitepaper by Gareth Heyes of the PortSwigger Research team : [Link](https://portswigger.net/research/splitting-the-email-atom).
+ - Whitepaper by Gareth Heyes of the PortSwigger Research team : [Link](https://portswigger.net/research/splitting-the-email-atom).
  - lab for practice : [Link](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-bypassing-access-controls-using-email-address-parsing-discrepancies).
  - tools for fuzzing : [Link](https://github.com/PortSwigger/splitting-the-email-atom/tree/main/tools). 
  - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988).

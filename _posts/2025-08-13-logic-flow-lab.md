@@ -133,7 +133,7 @@ To use it you just need to change the validServer variable to your target domain
 and we can easily customise the script to perform other attacks. 
 ![turbo-intruder](/assets/turbo-intruder.png "turbo-intruder")
 
-If the attack works you should receive a collaborator interaction within Turbo Intruder. This means the email domain is spoofable. 
+If the attack works you should receive a collaborator ingithub-verified-emailsteraction within Turbo Intruder. This means the email domain is spoofable. 
 i sort by words and i get valid responde :
 ![automation-trubo-email](/assets/automation-trubo-email.png "automation-trubo-email")
 
@@ -143,4 +143,3 @@ for more methods about email address parsing discrepancies
  - lab for practice : [Link](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-bypassing-access-controls-using-email-address-parsing-discrepancies).
  - tools for fuzzing : [Link](https://github.com/PortSwigger/splitting-the-email-atom/tree/main/tools). 
  - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988).
- 

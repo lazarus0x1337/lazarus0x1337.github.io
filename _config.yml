@@ -14,35 +14,35 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: lazaruX # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Cybersecurity . # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Dive into cybersecurity and DevOps with in-depth technical insights, security research, and hands-on problem-solving.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://lazarus0x1337.github.io/"
 
 github:
-  username: github_username # change to your GitHub username
+  username: lazarus0x1337 # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+linkedin:
+  url: https://www.linkedin.com/in/abdellah-fanidi/
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: abdellah fanidi
+  email: jobabdofanidi@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+     - https://github.com/lazarus0x1337 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     - https://www.linkedin.com/in/abdellah-fanidi/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://cdn.discordapp.com/avatars/695759873979318312/5144b1aebc08a54f0d1b1b75b26b8d35.png?size=1024
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -213,7 +213,7 @@ exclude:
   - README.md
   - LICENSE
   - purgecss.js
-  - "*.config.js"
+  - rollup.config.js
   - "package*.json"
 
 jekyll-archives:
